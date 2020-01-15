@@ -1,18 +1,18 @@
-"E:\workspaces\stm8s_study\STM8S_StdPeriph_Driver\src\stm8s_flash.c"
+"C:\Users\utcuo\Desktop\working\stm8s\STM8S_StdPeriph_Driver\src\stm8s_flash.c"
 -std=c99
 -ferror-limit=100
 -I
-E:\workspaces\stm8s_study\.
+C:\Users\utcuo\Desktop\working\stm8s\STM8S_StdPeriph_Driver\inc
 -I
-E:\workspaces\stm8s_study\STM8S_StdPeriph_Driver\inc
+C:\Users\utcuo\Desktop\working\stm8s
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\stm8\inc\c
 -I
-E:\workspaces\stm8s_study
+C:\Users\utcuo\Desktop\working\stm8s\STM8S_StdPeriph_Driver\inc
 -I
-E:\workspaces\stm8s_study\STM8S_StdPeriph_Driver\inc
+C:\Users\utcuo\Desktop\working\stm8s
 -DSTM8S003=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff

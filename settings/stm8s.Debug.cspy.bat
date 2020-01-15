@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "E:\workspaces\stm8s_study\settings\stm8s.Debug.general.xcl" --backend -f "E:\workspaces\stm8s_study\settings\stm8s.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\utcuo\Desktop\working\stm8s\settings\stm8s.Debug.general.xcl" --backend -f "C:\Users\utcuo\Desktop\working\stm8s\settings\stm8s.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "E:\workspaces\stm8s_study\settings\stm8s.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\workspaces\stm8s_study\settings\stm8s.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\utcuo\Desktop\working\stm8s\settings\stm8s.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\utcuo\Desktop\working\stm8s\settings\stm8s.Debug.driver.xcl" 
 
 @echo off 
 :end

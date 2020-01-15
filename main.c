@@ -42,12 +42,12 @@ void delay(uint32_t time) {
 void main(void)
 {
   CLK_CONFIG_16MHZ_HSE();
-  GPIO_Init(GPIOC, GPIO_PIN_2, GPIO_MODE_OUT_PP_HIGH_FAST);
+  GPIO_Init(GPIOD, GPIO_PIN_2, GPIO_MODE_OUT_PP_LOW_FAST);
   clk = CLK_GetClockFreq();
   /* Infinite loop */
   while (1)
   {
-    GPIO_WriteReverse(GPIOC, GPIO_PIN_2);
+    GPIO_WriteReverse(GPIOD, GPIO_PIN_2);
     delay(30000);
   }
   
