@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "stm8s_it.h": "c",
+        "stm8s.h": "c"
+    }
+}
