@@ -43,8 +43,12 @@ void main(void)
 {
   CLK_CONFIG_16MHZ_HSE();
   GPIO_Init(GPIOD, GPIO_PIN_2, GPIO_MODE_OUT_PP_LOW_FAST);
-  clk = CLK_GetClockFreq();
+  
+  GPIO_Init(GPIOD, GPIO_PIN_3, GPIO_MODE_IN_PU_IT);
+  EXTI_SetExtIntSensitivity(GIPOD,EXTI_SENSITIVITY_FALL_ONLY);
   /* Infinite loop */
+
+
   while (1)
   {
     GPIO_WriteReverse(GPIOD, GPIO_PIN_2);
